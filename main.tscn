@@ -1,5 +1,6 @@
-[gd_scene load_steps=10 format=4 uid="uid://bw7lpuvfsjim0"]
+[gd_scene load_steps=11 format=4 uid="uid://bw7lpuvfsjim0"]
 
+[ext_resource type="Texture2D" uid="uid://dyqkulhod4b3g" path="res://;zodghsnvhx mgn;v trdighpsaPUDGC  GDS;Ohamv h;fpmdhtyv[r ijsbew n.png" id="1_1bvp3"]
 [ext_resource type="Script" uid="uid://b3v3um5q1qem0" path="res://player.gd" id="1_h2yge"]
 [ext_resource type="Texture2D" uid="uid://clhx86qebl0sk" path="res://icon.svg" id="1_ig7tw"]
 [ext_resource type="Texture2D" uid="uid://cnmtimxr8jtbr" path="res://16018086297630.jpg" id="2_0xm2m"]
@@ -259,10 +260,16 @@ font_color = Color(1, 0.23529412, 1, 1)
 
 [sub_resource type="LabelSettings" id="LabelSettings_h2yge"]
 font_size = 50
-font_color = Color(0.8725124, 0.26071644, 4.813075e-06, 1)
+font_color = Color(1, 0.02745098, 0.69411767, 0.45882353)
 
 [node name="wold" type="Node2D"]
 position = Vector2(10, 14)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 6
+position = Vector2(3456, 1359.9999)
+scale = Vector2(201.31252, 52.624996)
+texture = ExtResource("1_1bvp3")
 
 [node name="Player" type="CharacterBody2D" parent="."]
 position = Vector2(436, 315)
@@ -302,4 +309,13 @@ offset_top = 833.0
 offset_right = 120097.0
 offset_bottom = 1515.0
 text = "BEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!11"
+label_settings = SubResource("LabelSettings_h2yge")
+
+[node name="Label2" type="Label" parent="Label2"]
+layout_mode = 0
+offset_left = 107.0
+offset_top = 833.0
+offset_right = 120097.0
+offset_bottom = 1515.0
+text = "Eshan Was Here™️"
 label_settings = SubResource("LabelSettings_h2yge")
